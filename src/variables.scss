@@ -1,0 +1,40 @@
+:root{
+    --tc: #000;
+    --wc: #fff;
+    //page one
+    --pm: #E69C31; // primary color
+    --l-pm: hsl(35, 78%, 65%); // light color
+    --d-pm: #885711; // dark primary color
+    --gr: #D9D9D9; // gray color
+    --l-gr: #FAFAFA; // light gray color
+    --bl: #109DBC; // blue color
+    --pk: #EDDBC5; // pink color
+    --f-pk: #faeddb88; // faded pink - button color
+
+    --bg: white; //background color
+
+    //gradients
+    --pm-grd:linear-gradient(to left, #ebb160 58%, #ff99cc26 100%);//primary gradient
+    --d-pm-grd:linear-gradient(to left,   hsl(35, 78%, 45%) 58%,#ebb160 100%) ;//primary gradient
+
+    //z - indexes
+    --z1: 10;
+    --z2: 9;
+    --z3: 8;
+}
+.dark{
+    background: black !important;
+    --tc: seashell !important;
+    --wc: #fff;
+    --bg: white; //background color
+
+
+}
+
+// mixin
+@mixin font($c,$s,$w){
+    color: $c;
+    font-size: $s;
+    font-weight: $w;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
