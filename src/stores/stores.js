@@ -83,13 +83,13 @@ class ProductObj{
 
 
 const data = [
-    new ArtistObj("shingrai bello", "image", "3d artist", [
+    new ArtistObj("yamikani njiragoma", "3d image", "3d artist", [
         new ProductObj("my yellow", "drawing", 75.00, "23-45 inches", "/maka3.png")
     ]),
-    new ArtistObj("shingrai bello", "image", "3d artist", [
+    new ArtistObj("yamikani njiragoma", "3d image", "3d artist", [
         new ProductObj("my yellow", "drawing", 75.00, "23-45 inches", "/maka4.png")
     ]),
-    new ArtistObj("shingrai bello", "image", "3d artist", [
+    new ArtistObj("yamikani njiragoma", "3d image", "3d artist", [
         new ProductObj("my yellow", "drawing", 75.00, "23-45 inches", "/maka5.png")
     ])
 ]
